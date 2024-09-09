@@ -1,50 +1,50 @@
 /* Write your code here. */
-.faqs-item{
-    padding: 20px;
-    border: 1px solid #d7dae6;
-    margin: 20px 0;
-    border-radius: 10px;
+.faqs-item {
+  padding: 20px;
+  border: 1px solid #d7dae6;
+  margin: 20px 0;
+  border-radius: 10px;
 }
-.qus-ans-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.qus-ans-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.question{
-    padding: 5px 0;
-    max-width: 300px;
-    font-size: 14px;
-    color: #52606d;
-    font-family: 'Roboto';
+.question {
+  padding: 5px 0;
+  max-width: 300px;
+  font-size: 14px;
+  color: #52606d;
+  font-family: 'Roboto';
 }
-.button{
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}    
-hr{
-    margin: 10px 0;
-    border:1px solid #e4e7eb;
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
-.answer{
-    padding: 5px 0;
-    max-width: 300px;
-    font-size: 12px;
-    color: #9aa5b1;
-    font-family: 'Roboto';
+hr {
+  margin: 10px 0;
+  border: 1px solid #e4e7eb;
 }
-.button-icon{
-    height: 25px;
-    width: 25px;
+.answer {
+  padding: 5px 0;
+  max-width: 300px;
+  font-size: 12px;
+  color: #9aa5b1;
+  font-family: 'Roboto';
 }
-@media screen and (min-width: 992px){
-    .question{
-        font-size: 22px;
-        max-width: 600px;
-    }
-    .answer{
-        font-size: 18px;
-        max-width: 600px;
-    }
+.button-icon {
+  height: 25px;
+  width: 25px;
+}
+@media screen and (min-width: 992px) {
+  .question {
+    font-size: 22px;
+    max-width: 600px;
+  }
+  .answer {
+    font-size: 18px;
+    max-width: 600px;
+  }
 }
